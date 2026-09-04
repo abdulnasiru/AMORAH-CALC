@@ -1,6 +1,6 @@
-/* =============================
-   MathCore — Global Foundation
-   ============================= */
+/* =================
+   Global Foundation
+   ================= */
 
 :root {
     --bg: #0b0f14;
@@ -262,6 +262,9 @@ button {
     transition: transform 0.12s ease,
        background 0.2s ease,
        border-color 0.2s ease;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 .key.function{
@@ -417,6 +420,11 @@ button {
     .calculator-body{
         overflow-y: visible;
     }
+   .key {
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-user-select: none;
+}
 }
 
 /* ======
@@ -491,7 +499,11 @@ button {
         min-height: 50px;
         border-radius: 12px;
         font-size: 0.95rem;
-    }
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-user-select: none;
+}
+    
     .calculator{
         height: 100%;
         min-height: 0;
